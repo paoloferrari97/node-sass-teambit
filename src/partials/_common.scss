@@ -11,3 +11,10 @@ body {
     margin: auto;
   }
 }
+
+.btn_vuoto {
+  padding: 15px;
+  color: $blu_color;
+  border: 1px solid $blu_color;
+  border-radius: 0.5rem;
+}

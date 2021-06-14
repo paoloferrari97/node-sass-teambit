@@ -1,17 +1,3 @@
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-body {
-  color: #58402c;
-}
-body #app {
-  width: 80%;
-  margin: auto;
-}
-
 nav {
   display: flex;
   justify-content: space-between;
@@ -30,9 +16,48 @@ nav div:first-child span {
   font-size: 25px;
 }
 nav div:nth-child(2) a {
-  font-size: 18px;
   text-decoration: none;
+  font-size: 18px;
   font-weight: 600;
   color: #58402c;
   margin-left: 20px;
+}
+nav div:nth-child(2) a i {
+  font-size: 15px;
+}
+nav div:nth-child(2) button {
+  font-size: 18px;
+  margin-left: 20px;
+  background-color: white;
+  font-weight: 600;
+  position: relative;
+  padding-left: 40px;
+}
+nav div:nth-child(2) button img {
+  width: 25px;
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: #58402c;
+}
+body #app {
+  width: 80%;
+  margin: auto;
+}
+
+.btn_vuoto {
+  padding: 15px;
+  color: #415a9d;
+  border: 1px solid #415a9d;
+  border-radius: 0.5rem;
 }
