@@ -18,3 +18,17 @@ body {
   border: 1px solid $blu_color;
   border-radius: 0.5rem;
 }
+
+.btn_pieno {
+  background-color: $blu_color;
+  padding: 7px 10px;
+  color: white;
+  font-weight: 700;
+  border: none;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  img {
+    width: 20px;
+  }
+}

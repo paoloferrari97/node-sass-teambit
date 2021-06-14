@@ -1,0 +1,39 @@
+header {
+  & > div {
+    padding: 40px 0;
+    display: flex;
+    div {
+      width: 50%;
+      h1 {
+        font-size: 60px;
+      }
+      p {
+        font-size: 25px;
+        margin-top: 20px;
+        line-height: 40px;
+        margin-bottom: 40px;
+      }
+      div {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        button {
+          white-space: nowrap;
+        }
+        span {
+          margin: 0 10px;
+        }
+      }
+      span {
+        display: flex;
+        align-items: center;
+        i {
+          margin-left: 5px;
+        }
+      }
+    }
+    img {
+      width: 50%;
+    }
+  }
+}

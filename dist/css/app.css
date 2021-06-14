@@ -41,6 +41,44 @@ nav div:nth-child(2) button img {
   transform: translateY(-50%);
 }
 
+header > div {
+  padding: 40px 0;
+  display: flex;
+}
+header > div div {
+  width: 50%;
+}
+header > div div h1 {
+  font-size: 60px;
+}
+header > div div p {
+  font-size: 25px;
+  margin-top: 20px;
+  line-height: 40px;
+  margin-bottom: 40px;
+}
+header > div div div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+header > div div div button {
+  white-space: nowrap;
+}
+header > div div div span {
+  margin: 0 10px;
+}
+header > div div span {
+  display: flex;
+  align-items: center;
+}
+header > div div span i {
+  margin-left: 5px;
+}
+header > div img {
+  width: 50%;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -60,4 +98,18 @@ body #app {
   color: #415a9d;
   border: 1px solid #415a9d;
   border-radius: 0.5rem;
+}
+
+.btn_pieno {
+  background-color: #415a9d;
+  padding: 7px 10px;
+  color: white;
+  font-weight: 700;
+  border: none;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+.btn_pieno img {
+  width: 20px;
 }
