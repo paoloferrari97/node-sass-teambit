@@ -1,13 +1,12 @@
 main {
-  section:first-child {
+  .uno_due {
     background-color: $lightrown_color;
     padding-top: 50px;
     .container {
-      border-bottom: 1px solid $text_color;
       h1 {
         font-size: 30px;
         text-align: center;
-        width: 500px;
+        width: 600px;
         margin: auto;
         line-height: 40px;
         margin-bottom: 50px;
@@ -34,5 +33,13 @@ main {
         transform: translateX(-50%);
       }
     }
+  }
+  section:first-child {
+    .container {
+      border-bottom: 1px solid $text_color;
+    }
+  }
+  section:nth-child(2) {
+    padding-bottom: 20px;
   }
 }

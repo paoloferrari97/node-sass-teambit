@@ -79,41 +79,44 @@ header > div img {
   width: 50%;
 }
 
-main section:first-child {
+main .uno_due {
   background-color: #ffe7d2;
   padding-top: 50px;
 }
-main section:first-child .container {
-  border-bottom: 1px solid #58402c;
-}
-main section:first-child .container h1 {
+main .uno_due .container h1 {
   font-size: 30px;
   text-align: center;
-  width: 500px;
+  width: 600px;
   margin: auto;
   line-height: 40px;
   margin-bottom: 50px;
 }
-main section:first-child .container div {
+main .uno_due .container div {
   display: flex;
   justify-content: space-between;
 }
-main section:first-child .container div div {
+main .uno_due .container div div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-main section:first-child .container div div img {
+main .uno_due .container div div img {
   height: 120px;
   margin-bottom: 20px;
 }
-main section:first-child .container > img {
+main .uno_due .container > img {
   width: 300px;
   margin: 100px 0;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
+}
+main section:first-child .container {
+  border-bottom: 1px solid #58402c;
+}
+main section:nth-child(2) {
+  padding-bottom: 20px;
 }
 
 * {
