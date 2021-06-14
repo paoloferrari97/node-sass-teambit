@@ -49,7 +49,7 @@ header > div div {
   width: 50%;
 }
 header > div div h1 {
-  font-size: 60px;
+  font-size: 50px;
 }
 header > div div p {
   font-size: 25px;
@@ -127,6 +127,7 @@ main section:nth-child(2) {
 
 body {
   color: #58402c;
+  font-family: "Roboto", sans-serif;
 }
 body .container {
   width: 80%;
