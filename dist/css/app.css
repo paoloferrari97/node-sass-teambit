@@ -4,7 +4,10 @@
   margin: 0;
 }
 
-#app {
+body {
+  color: #58402c;
+}
+body #app {
   width: 80%;
   margin: auto;
 }
@@ -13,4 +16,23 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px 0 20px 10px;
+  border-bottom: 1px solid #58402c;
+}
+nav div:first-child {
+  display: flex;
+}
+nav div:first-child img {
+  margin-right: 10px;
+}
+nav div:first-child span {
+  align-self: center;
+  font-size: 25px;
+}
+nav div:nth-child(2) a {
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #58402c;
+  margin-left: 20px;
 }

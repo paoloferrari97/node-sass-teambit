@@ -4,7 +4,10 @@
   margin: 0;
 }
 
-#app {
-  width: 80%;
-  margin: auto;
+body {
+  color: $text_color;
+  #app {
+    width: 80%;
+    margin: auto;
+  }
 }

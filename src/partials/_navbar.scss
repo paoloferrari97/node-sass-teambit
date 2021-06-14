@@ -2,4 +2,25 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px 0 20px 10px;
+  border-bottom: 1px solid $text_color;
+  div:first-child {
+    display: flex;
+    img {
+      margin-right: 10px;
+    }
+    span {
+      align-self: center;
+      font-size: 25px;
+    }
+  }
+  div:nth-child(2) {
+    a {
+      font-size: 18px;
+      text-decoration: none;
+      font-weight: 600;
+      color: $text_color;
+      margin-left: 20px;
+    }
+  }
 }
