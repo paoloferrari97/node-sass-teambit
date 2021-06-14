@@ -79,6 +79,33 @@ header > div img {
   width: 50%;
 }
 
+main section:first-child {
+  background-color: #ffe7d2;
+  padding: 50px 0;
+}
+main section:first-child .container h1 {
+  font-size: 30px;
+  text-align: center;
+  width: 500px;
+  margin: auto;
+  line-height: 40px;
+  margin-bottom: 50px;
+}
+main section:first-child .container div {
+  display: flex;
+  justify-content: space-between;
+}
+main section:first-child .container div div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main section:first-child .container div div img {
+  height: 150px;
+  margin-bottom: 20px;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -88,7 +115,7 @@ header > div img {
 body {
   color: #58402c;
 }
-body #app {
+body .container {
   width: 80%;
   margin: auto;
 }
